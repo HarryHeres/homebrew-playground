@@ -1,4 +1,4 @@
-cask "zen-browser" do
+cask "zen" do
   arch arm: "aarch64", intel: "x64"
   version "1.0.0-a.34"
   sha256 arm: "6cc6e72c4a6a11d0139489d438ccf811715e170eebc01da739da32ace258074",
