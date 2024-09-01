@@ -14,7 +14,10 @@ cask "zen" do
     regex(/[0-9].*-a.[0-9]*/i)
   end
 
-  zap = []
+  zap = [
+    "$HOME/Library/Preferences/org.mozilla.com.zen.browser.plist",
+    "$HOME/Library/Saved Application State/org.mozilla.com.zen.browser.savedState"
+  ]
   depends_on = [] 
 
   app "Zen Browser.app"
