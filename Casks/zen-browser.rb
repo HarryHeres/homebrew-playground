@@ -14,8 +14,8 @@ cask("zen-browser") do
   end
 
   zap trash: [
-    "$HOME/Library/Preferences/org.mozilla.com.zen.browser.plist",
-    "$HOME/Library/Saved Application State/org.mozilla.com.zen.browser.savedState"
+    "~/Library/Preferences/org.mozilla.com.zen.browser.plist",
+    "~/Library/Saved Application State/org.mozilla.com.zen.browser.savedState"
   ]
 
   app("Zen Browser.app")
